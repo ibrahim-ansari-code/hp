@@ -65,7 +65,7 @@ export default function TablingosDark() {
       </nav>
 
       {/* HERO */}
-      <section data-landright-section="Hero" className="relative z-10 min-h-screen flex flex-col items-center justify-center text-center px-6 pt-24 pb-20">
+      <section data-landright-section="hero" className="relative z-10 min-h-screen flex flex-col items-center justify-center text-center px-6 pt-24 pb-20">
         {/* Ambient glow */}
         <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[#F59E0B]/5 blur-[120px] pointer-events-none" />
 
@@ -111,17 +111,39 @@ export default function TablingosDark() {
             <span className="text-[#F1F5F9]/80">No engineers required.</span>
           </p>
 
-          <div className="mt-10 flex flex-col items-center gap-4">
+          <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
             <button
               type="button"
               onClick={() => setCalendlyOpen(true)}
-              className="group relative bg-[#EF4444] hover:bg-[#DC2626] text-white font-bold px-10 py-4 rounded-full text-lg transition-all duration-200 shadow-lg hover:shadow-red-900/40 hover:shadow-xl"
+              className="group relative bg-[#EF4444] hover:bg-[#DC2626] text-white font-bold px-12 py-5 rounded-full text-xl transition-all duration-200 shadow-lg hover:shadow-red-900/40 hover:shadow-xl transform hover:scale-105"
               style={{ fontFamily: "var(--font-manrope)" }}
             >
-              <span className="relative z-10">call</span>
+              <span className="relative z-10">Book Demo Call</span>
               <div className="absolute inset-0 rounded-full bg-[#EF4444] blur-md opacity-0 group-hover:opacity-40 transition-opacity duration-200" />
             </button>
-            <span className="text-xs text-[#64748B]" style={{ fontFamily: "var(--font-manrope)" }}>No credit card · No engineers · Just results</span>
+            <button
+              type="button"
+              onClick={() => setCalendlyOpen(true)}
+              className="group relative bg-transparent border-2 border-[#F59E0B] text-[#F59E0B] hover:bg-[#F59E0B] hover:text-[#0A0E1A] font-bold px-10 py-4 rounded-full text-lg transition-all duration-200"
+              style={{ fontFamily: "var(--font-manrope)" }}
+            >
+              <span className="relative z-10">Get Started Free</span>
+            </button>
+          </div>
+          
+          <div className="mt-6 flex items-center justify-center gap-6 text-xs text-[#64748B]" style={{ fontFamily: "var(--font-manrope)" }}>
+            <span className="flex items-center gap-1">
+              <span className="text-[#22C55E]">✓</span>
+              No credit card
+            </span>
+            <span className="flex items-center gap-1">
+              <span className="text-[#22C55E]">✓</span>
+              No engineers
+            </span>
+            <span className="flex items-center gap-1">
+              <span className="text-[#22C55E]">✓</span>
+              Just results
+            </span>
           </div>
 
           {/* Schema preview card */}
