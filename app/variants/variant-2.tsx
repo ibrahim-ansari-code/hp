@@ -131,7 +131,7 @@ export default function TablingosDark() {
             </button>
           </div>
           
-          <div className="mt-6 flex items-center justify-center gap-6 text-xs text-[#64748B]" style={{ fontFamily: "var(--font-manrope)" }}>
+          <div className="mt-8 flex items-center justify-center gap-6 text-xs text-[#64748B]" style={{ fontFamily: "var(--font-manrope)" }}>
             <span className="flex items-center gap-1">
               <span className="text-[#22C55E]">✓</span>
               No credit card
