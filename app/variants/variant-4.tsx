@@ -66,18 +66,18 @@ export default function TablingosVariant4() {
       <p className="text-base md:text-lg text-[#555555] leading-relaxed mb-10 max-w-md">
         Tablingos automates the entire data onboarding pipeline — define your schema, validate on ingestion, transform on the fly. No engineers required.
       </p>
-      <div className="flex flex-col sm:flex-row gap-4 mb-8">
+      <div className="flex flex-col gap-3 mb-8">
         <button
           type="button"
           onClick={() => setCalendlyOpen(true)}
-          className="px-10 py-5 rounded-2xl bg-[#2563EB] text-white font-bold text-lg hover:bg-[#1D4ED8] transition-all hover:shadow-xl hover:shadow-blue-200 hover:-translate-y-1 transform"
+          className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-[#2563EB] text-white font-bold text-lg hover:bg-[#1D4ED8] transition-all hover:shadow-xl hover:shadow-blue-200 hover:-translate-y-1 transform"
         >
           Start Free Trial
         </button>
         <button
           type="button"
           onClick={() => setCalendlyOpen(true)}
-          className="px-8 py-5 rounded-2xl border-2 border-[#2563EB] text-[#2563EB] font-bold text-lg hover:bg-[#2563EB] hover:text-white transition-all hover:shadow-lg"
+          className="w-full sm:w-auto px-8 py-5 rounded-2xl border-2 border-[#2563EB] text-[#2563EB] font-bold text-lg hover:bg-[#2563EB] hover:text-white transition-all hover:shadow-lg"
         >
           Book Demo
         </button>
