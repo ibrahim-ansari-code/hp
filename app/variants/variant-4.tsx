@@ -43,7 +43,7 @@ export default function TablingosVariant4() {
       </nav>
 
       {/* HERO */}
-      <section data-landright-section="Hero" className="pt-32 pb-24 px-6 md:px-10 max-w-6xl mx-auto">
+      <section data-landright-section="hero" className="pt-32 pb-24 px-6 md:px-10 max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           {/* Left */}
           <div>
@@ -66,22 +66,29 @@ export default function TablingosVariant4() {
             <p className="text-base md:text-lg text-[#555555] leading-relaxed mb-10 max-w-md">
               Tablingos automates the entire data onboarding pipeline — define your schema, validate on ingestion, transform on the fly. No engineers required.
             </p>
-            <div className="flex flex-col sm:flex-row gap-3">
+            <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <button
                 type="button"
                 onClick={() => setCalendlyOpen(true)}
-                className="px-8 py-4 rounded-2xl bg-[#2563EB] text-white font-bold text-base hover:bg-[#1D4ED8] transition-all hover:shadow-lg hover:shadow-blue-200 hover:-translate-y-0.5"
+                className="px-10 py-5 rounded-2xl bg-[#2563EB] text-white font-bold text-lg hover:bg-[#1D4ED8] transition-all hover:shadow-xl hover:shadow-blue-200 hover:-translate-y-1 transform"
               >
-                call
+                Start Free Trial
               </button>
-              <div className="flex items-center gap-2 px-4 py-4">
-                <div className="flex -space-x-2">
-                  {['#E0E7FF','#DBEAFE','#EDE9FE'].map((c, i) => (
-                    <div key={i} className="w-7 h-7 rounded-full border-2 border-white" style={{ background: c }}></div>
-                  ))}
-                </div>
-                <span className="text-sm text-[#777777] font-medium">Trusted by data teams</span>
+              <button
+                type="button"
+                onClick={() => setCalendlyOpen(true)}
+                className="px-8 py-5 rounded-2xl border-2 border-[#2563EB] text-[#2563EB] font-bold text-lg hover:bg-[#2563EB] hover:text-white transition-all hover:shadow-lg"
+              >
+                Book Demo
+              </button>
+            </div>
+            <div className="flex items-center gap-3">
+              <div className="flex -space-x-2">
+                {['#E0E7FF','#DBEAFE','#EDE9FE'].map((c, i) => (
+                  <div key={i} className="w-8 h-8 rounded-full border-2 border-white" style={{ background: c }}></div>
+                ))}
               </div>
+              <span className="text-sm text-[#777777] font-medium">Join 500+ data teams already using Tablingos</span>
             </div>
           </div>
 
