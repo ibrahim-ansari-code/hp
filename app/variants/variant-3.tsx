@@ -96,12 +96,12 @@ export default function TablingosVariant3() {
                 <strong>No engineers required.</strong>
               </p>
               
-              {/* Primary CTA - Dual button layout for prominence */}
-              <div className="mb-8 flex flex-col sm:flex-row gap-4">
+              {/* Primary CTA - Single dominant button with secondary link */}
+              <div className="mb-8 flex flex-col sm:flex-row gap-4 items-start">
                 <button
                   type="button"
                   onClick={() => setCalendlyOpen(true)}
-                  className="bg-red-600 text-white px-12 py-6 text-lg font-bold uppercase tracking-widest hover:bg-red-700 transition-all duration-200 border-4 border-red-600 hover:border-red-700 shadow-[6px_6px_0px_0px_#000] hover:shadow-[8px_8px_0px_0px_#000]"
+                  className="bg-red-600 text-white px-12 py-6 text-lg font-bold uppercase tracking-widest hover:bg-red-700 transition-all duration-200 border-4 border-red-600 hover:border-red-700 shadow-[6px_6px_0px_0px_#000] hover:shadow-[8px_8px_0px_0px_#000] w-full sm:w-auto"
                   style={{ fontFamily: "var(--font-manrope)" }}
                 >
                   Start Free Trial
@@ -109,10 +109,10 @@ export default function TablingosVariant3() {
                 <button
                   type="button"
                   onClick={() => setCalendlyOpen(true)}
-                  className="bg-white text-black px-12 py-6 text-lg font-bold uppercase tracking-widest hover:bg-gray-100 transition-all duration-200 border-4 border-black shadow-[6px_6px_0px_0px_#DC2626] hover:shadow-[8px_8px_0px_0px_#DC2626]"
+                  className="text-red-600 px-6 py-6 text-lg font-bold uppercase tracking-widest hover:text-red-700 transition-colors duration-200 border-b-4 border-red-600 hover:border-red-700 bg-transparent"
                   style={{ fontFamily: "var(--font-manrope)" }}
                 >
-                  Schedule Demo
+                  Schedule Demo →
                 </button>
               </div>
 
@@ -414,7 +414,7 @@ export default function TablingosVariant3() {
 
       {/* FOOTER */}
       <footer data-landright-section="footer" className="bg-black text-white">
-  <div className="max-w-7xl mx-auto px-4 md:px-8 py-10 flex flex-col md:flex-row items-center justify-between gap-4">
+  <div className="max-w-7xl mx-auto px-4 md:px-8 py-12 flex flex-col md:flex-row items-center justify-between gap-6">
     <div className="flex items-center gap-3">
       <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQIAdgB2AAD/4gJASUNDX1BST0ZJTEUAAQEAAAIwQURCRQIQAABtbnRyUkdCIFhZWiAHzwAGAAMAAAAAAABhY3NwQVBQTAAAAABub25lAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLUFEQkUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApjcHJ0AAAA/AAAADJkZXNjAAABMAAAAGt3d" alt="Tablingos" className="h-7 w-auto brightness-0 invert" />
     </div>
