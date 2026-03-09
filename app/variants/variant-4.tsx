@@ -77,9 +77,9 @@ export default function TablingosVariant4() {
         <button
           type="button"
           onClick={() => setCalendlyOpen(true)}
-          className="w-full sm:w-auto px-8 py-5 rounded-2xl border-2 border-[#2563EB] text-[#2563EB] font-bold text-lg hover:bg-[#2563EB] hover:text-white transition-all hover:shadow-lg"
+          className="w-full sm:w-auto px-8 py-5 rounded-2xl bg-[#F0F4FF] text-[#2563EB] font-bold text-lg hover:bg-[#E0E7FF] transition-all border border-[#DBEAFE]"
         >
-          Book Demo
+          Schedule Demo
         </button>
       </div>
       <div className="flex items-center gap-3">
