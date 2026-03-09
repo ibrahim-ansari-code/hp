@@ -44,7 +44,7 @@ export default function TablingosVariant3() {
       </nav>
 
       {/* HERO */}
-      <section data-landright-section="Hero" className="relative pt-16 md:pt-20 min-h-screen flex flex-col justify-center overflow-hidden">
+      <section data-landright-section="hero" className="relative pt-16 md:pt-20 min-h-screen flex flex-col justify-center overflow-hidden">
         {/* Diagonal red slash background */}
         <div
           className="absolute inset-0 z-0"
@@ -95,14 +95,34 @@ export default function TablingosVariant3() {
                 Tablingos automates the entire data onboarding pipeline — define your schema, validate on ingestion, transform on the fly.{" "}
                 <strong>No engineers required.</strong>
               </p>
-              <button
-                type="button"
-                onClick={() => setCalendlyOpen(true)}
-                className="bg-black text-white px-8 py-4 text-base font-bold uppercase tracking-widest hover:bg-red-600 transition-colors duration-200 border-4 border-black"
-                style={{ fontFamily: "var(--font-manrope)" }}
-              >
-                call
-              </button>
+              
+              {/* Primary CTA - More prominent */}
+              <div className="flex flex-col sm:flex-row gap-4 mb-6">
+                <button
+                  type="button"
+                  onClick={() => setCalendlyOpen(true)}
+                  className="bg-red-600 text-white px-10 py-5 text-lg font-bold uppercase tracking-widest hover:bg-black transition-colors duration-200 border-4 border-red-600 hover:border-black shadow-[4px_4px_0px_0px_#000]"
+                  style={{ fontFamily: "var(--font-manrope)" }}
+                >
+                  Book Demo Call
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setCalendlyOpen(true)}
+                  className="bg-black text-white px-8 py-5 text-base font-bold uppercase tracking-widest hover:bg-red-600 transition-colors duration-200 border-4 border-black hover:border-red-600"
+                  style={{ fontFamily: "var(--font-manrope)" }}
+                >
+                  Start Free Trial
+                </button>
+              </div>
+
+              {/* Trust indicator */}
+              <div className="flex items-center gap-2 text-sm text-gray-600">
+                <span className="text-green-600 font-bold">✓</span>
+                <span style={{ fontFamily: "var(--font-manrope)" }}>
+                  Setup in under 5 minutes
+                </span>
+              </div>
             </div>
 
             {/* Right: product preview card */}
