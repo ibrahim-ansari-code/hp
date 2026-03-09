@@ -44,120 +44,120 @@ export default function TablingosVariant4() {
 
       {/* HERO */}
       <section data-landright-section="hero" className="pt-32 pb-24 px-6 md:px-10 max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-16 items-center">
-          {/* Left */}
-          <div>
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#F0F4FF] border border-[#DBEAFE] mb-8">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#2563EB] animate-pulse"></span>
-              <span className="text-xs font-semibold text-[#2563EB] tracking-wide uppercase">No-code data onboarding</span>
-            </div>
-            <h1
-              className="text-5xl md:text-6xl lg:text-7xl font-black leading-[0.95] tracking-tight mb-6 text-[#0A0A0A]"
-              style={{ fontFamily: 'var(--font-outfit)' }}
-            >
-              Stop
-              <br />
-              <span className="text-[#2563EB]">Wrestling</span>
-              <br />
-              With Your
-              <br />
-              Data
-            </h1>
-            <p className="text-base md:text-lg text-[#555555] leading-relaxed mb-10 max-w-md">
-              Tablingos automates the entire data onboarding pipeline — define your schema, validate on ingestion, transform on the fly. No engineers required.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <button
-                type="button"
-                onClick={() => setCalendlyOpen(true)}
-                className="px-10 py-5 rounded-2xl bg-[#2563EB] text-white font-bold text-lg hover:bg-[#1D4ED8] transition-all hover:shadow-xl hover:shadow-blue-200 hover:-translate-y-1 transform"
-              >
-                Start Free Trial
-              </button>
-              <button
-                type="button"
-                onClick={() => setCalendlyOpen(true)}
-                className="px-8 py-5 rounded-2xl border-2 border-[#2563EB] text-[#2563EB] font-bold text-lg hover:bg-[#2563EB] hover:text-white transition-all hover:shadow-lg"
-              >
-                Book Demo
-              </button>
-            </div>
-            <div className="flex items-center gap-3">
-              <div className="flex -space-x-2">
-                {['#E0E7FF','#DBEAFE','#EDE9FE'].map((c, i) => (
-                  <div key={i} className="w-8 h-8 rounded-full border-2 border-white" style={{ background: c }}></div>
-                ))}
-              </div>
-              <span className="text-sm text-[#777777] font-medium">Join 500+ data teams already using Tablingos</span>
-            </div>
-          </div>
+  <div className="grid md:grid-cols-2 gap-16 items-center">
+    {/* Left */}
+    <div>
+      <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#F0F4FF] border border-[#DBEAFE] mb-8">
+        <span className="w-1.5 h-1.5 rounded-full bg-[#2563EB] animate-pulse"></span>
+        <span className="text-xs font-semibold text-[#2563EB] tracking-wide uppercase">No-code data onboarding</span>
+      </div>
+      <h1
+        className="text-5xl md:text-6xl lg:text-7xl font-black leading-[0.95] tracking-tight mb-6 text-[#0A0A0A]"
+        style={{ fontFamily: 'var(--font-outfit)' }}
+      >
+        Stop
+        <br />
+        <span className="text-[#2563EB]">Wrestling</span>
+        <br />
+        With Your
+        <br />
+        Data
+      </h1>
+      <p className="text-base md:text-lg text-[#555555] leading-relaxed mb-10 max-w-md">
+        Tablingos automates the entire data onboarding pipeline — define your schema, validate on ingestion, transform on the fly. No engineers required.
+      </p>
+      <div className="flex flex-col sm:flex-row gap-4 mb-8">
+        <button
+          type="button"
+          onClick={() => setCalendlyOpen(true)}
+          className="px-10 py-5 rounded-2xl bg-[#2563EB] text-white font-bold text-lg hover:bg-[#1D4ED8] transition-all hover:shadow-xl hover:shadow-blue-200 hover:-translate-y-1 transform"
+        >
+          Start Free Trial
+        </button>
+        <button
+          type="button"
+          onClick={() => setCalendlyOpen(true)}
+          className="px-8 py-5 rounded-2xl border-2 border-[#2563EB] text-[#2563EB] font-bold text-lg hover:bg-[#2563EB] hover:text-white transition-all hover:shadow-lg"
+        >
+          Book Demo
+        </button>
+      </div>
+      <div className="flex items-center gap-3">
+        <div className="flex -space-x-2">
+          {['#E0E7FF','#DBEAFE','#EDE9FE'].map((c, i) => (
+            <div key={i} className="w-8 h-8 rounded-full border-2 border-white" style={{ background: c }}></div>
+          ))}
+        </div>
+        <span className="text-sm text-[#777777] font-medium">Join 500+ data teams already using Tablingos</span>
+      </div>
+    </div>
 
-          {/* Right — Product Preview */}
-          <div className="relative">
-            {/* Main card */}
-            <div className="bg-white rounded-3xl border border-[#E8E8E8] shadow-xl shadow-black/5 overflow-hidden">
-              {/* Card header */}
-              <div className="px-5 py-4 border-b border-[#F0F0F0] flex items-center justify-between">
+    {/* Right — Product Preview */}
+    <div className="relative">
+      {/* Main card */}
+      <div className="bg-white rounded-3xl border border-[#E8E8E8] shadow-xl shadow-black/5 overflow-hidden">
+        {/* Card header */}
+        <div className="px-5 py-4 border-b border-[#F0F0F0] flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <div className="flex gap-1.5">
+              <div className="w-3 h-3 rounded-full bg-[#FF5F57]"></div>
+              <div className="w-3 h-3 rounded-full bg-[#FEBC2E]"></div>
+              <div className="w-3 h-3 rounded-full bg-[#28C840]"></div>
+            </div>
+            <span className="text-xs font-semibold text-[#999999] ml-2">Pipeline Editor</span>
+          </div>
+          <span className="text-xs px-2 py-1 rounded-full bg-[#F0FDF4] text-[#16A34A] font-semibold">● Live</span>
+        </div>
+        {/* Schema definition */}
+        <div className="p-5">
+          <div className="text-xs font-bold text-[#AAAAAA] uppercase tracking-widest mb-3">Schema Definition</div>
+          <div className="space-y-2 mb-5">
+            {[
+              { name: 'user_id', type: 'INTEGER', status: 'valid' },
+              { name: 'email', type: 'STRING', status: 'valid' },
+              { name: 'timestamp', type: 'TIMESTAMP', status: 'valid' },
+              { name: 'amount', type: 'FLOAT', status: 'warning' },
+              { name: 'signal_hz', type: 'FLOAT', status: 'valid' },
+            ].map((field) => (
+              <div key={field.name} className="flex items-center justify-between px-3 py-2 rounded-xl bg-[#F8F9FC] border border-[#EEEEEE]">
+                <div className="flex items-center gap-3">
+                  <span className="text-sm font-mono font-semibold text-[#1A1A1A]">{field.name}</span>
+                </div>
                 <div className="flex items-center gap-2">
-                  <div className="flex gap-1.5">
-                    <div className="w-3 h-3 rounded-full bg-[#FF5F57]"></div>
-                    <div className="w-3 h-3 rounded-full bg-[#FEBC2E]"></div>
-                    <div className="w-3 h-3 rounded-full bg-[#28C840]"></div>
-                  </div>
-                  <span className="text-xs font-semibold text-[#999999] ml-2">Pipeline Editor</span>
-                </div>
-                <span className="text-xs px-2 py-1 rounded-full bg-[#F0FDF4] text-[#16A34A] font-semibold">● Live</span>
-              </div>
-              {/* Schema definition */}
-              <div className="p-5">
-                <div className="text-xs font-bold text-[#AAAAAA] uppercase tracking-widest mb-3">Schema Definition</div>
-                <div className="space-y-2 mb-5">
-                  {[
-                    { name: 'user_id', type: 'INTEGER', status: 'valid' },
-                    { name: 'email', type: 'STRING', status: 'valid' },
-                    { name: 'timestamp', type: 'TIMESTAMP', status: 'valid' },
-                    { name: 'amount', type: 'FLOAT', status: 'warning' },
-                    { name: 'signal_hz', type: 'FLOAT', status: 'valid' },
-                  ].map((field) => (
-                    <div key={field.name} className="flex items-center justify-between px-3 py-2 rounded-xl bg-[#F8F9FC] border border-[#EEEEEE]">
-                      <div className="flex items-center gap-3">
-                        <span className="text-sm font-mono font-semibold text-[#1A1A1A]">{field.name}</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <span className="text-xs px-2 py-0.5 rounded-md bg-[#EEF2FF] text-[#4F46E5] font-bold font-mono">{field.type}</span>
-                        <span className={`w-2 h-2 rounded-full ${field.status === 'valid' ? 'bg-[#22C55E]' : 'bg-[#F59E0B]'}`}></span>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-                {/* Transform arrow */}
-                <div className="flex items-center gap-3 my-4">
-                  <div className="flex-1 h-px bg-[#E8E8E8]"></div>
-                  <div className="px-3 py-1.5 rounded-full bg-[#2563EB] text-white text-xs font-bold">→ Transform</div>
-                  <div className="flex-1 h-px bg-[#E8E8E8]"></div>
-                </div>
-                {/* Output preview */}
-                <div className="rounded-xl bg-[#0A0A0A] p-3 font-mono text-xs">
-                  <div className="text-[#666666] mb-1">// Output: clean structured data</div>
-                  <div className="text-[#22C55E]">✓ 1,247 rows validated</div>
-                  <div className="text-[#22C55E]">✓ 0 schema violations</div>
-                  <div className="text-[#F59E0B]">⚠ 3 rows auto-corrected</div>
-                  <div className="text-[#2563EB] mt-1">→ Ready for pipeline</div>
+                  <span className="text-xs px-2 py-0.5 rounded-md bg-[#EEF2FF] text-[#4F46E5] font-bold font-mono">{field.type}</span>
+                  <span className={`w-2 h-2 rounded-full ${field.status === 'valid' ? 'bg-[#22C55E]' : 'bg-[#F59E0B]'}`}></span>
                 </div>
               </div>
-            </div>
-            {/* Floating badge */}
-            <div className="absolute -top-4 -right-4 bg-[#2563EB] text-white text-xs font-bold px-3 py-2 rounded-2xl shadow-lg shadow-blue-200">
-              No code needed
-            </div>
-            {/* Floating stat */}
-            <div className="absolute -bottom-4 -left-4 bg-white border border-[#E8E8E8] shadow-lg rounded-2xl px-4 py-3">
-              <div className="text-2xl font-black text-[#0A0A0A]" style={{ fontFamily: 'var(--font-outfit)' }}>98%</div>
-              <div className="text-xs text-[#777777] font-medium">fewer data errors</div>
-            </div>
+            ))}
+          </div>
+          {/* Transform arrow */}
+          <div className="flex items-center gap-3 my-4">
+            <div className="flex-1 h-px bg-[#E8E8E8]"></div>
+            <div className="px-3 py-1.5 rounded-full bg-[#2563EB] text-white text-xs font-bold">→ Transform</div>
+            <div className="flex-1 h-px bg-[#E8E8E8]"></div>
+          </div>
+          {/* Output preview */}
+          <div className="rounded-xl bg-[#0A0A0A] p-3 font-mono text-xs">
+            <div className="text-[#666666] mb-1">// Output: clean structured data</div>
+            <div className="text-[#22C55E]">✓ 1,247 rows validated</div>
+            <div className="text-[#22C55E]">✓ 0 schema violations</div>
+            <div className="text-[#F59E0B]">⚠ 3 rows auto-corrected</div>
+            <div className="text-[#2563EB] mt-1">→ Ready for pipeline</div>
           </div>
         </div>
-      </section>
+      </div>
+      {/* Floating badge */}
+      <div className="absolute -top-4 -right-4 bg-[#2563EB] text-white text-xs font-bold px-3 py-2 rounded-2xl shadow-lg shadow-blue-200">
+        No code needed
+      </div>
+      {/* Floating stat */}
+      <div className="absolute -bottom-4 -left-4 bg-white border border-[#E8E8E8] shadow-lg rounded-2xl px-4 py-3">
+        <div className="text-2xl font-black text-[#0A0A0A]" style={{ fontFamily: 'var(--font-outfit)' }}>98%</div>
+        <div className="text-xs text-[#777777] font-medium">fewer data errors</div>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* FEATURES */}
       <section data-landright-section="Features" className="py-24 px-6 md:px-10 bg-white">
