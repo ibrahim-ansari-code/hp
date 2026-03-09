@@ -96,32 +96,32 @@ export default function TablingosVariant3() {
                 <strong>No engineers required.</strong>
               </p>
               
-              {/* Primary CTA - More prominent */}
-              <div className="flex flex-col sm:flex-row gap-4 mb-6">
+              {/* Primary CTA - Single prominent button */}
+              <div className="mb-8">
                 <button
                   type="button"
                   onClick={() => setCalendlyOpen(true)}
-                  className="bg-red-600 text-white px-10 py-5 text-lg font-bold uppercase tracking-widest hover:bg-black transition-colors duration-200 border-4 border-red-600 hover:border-black shadow-[4px_4px_0px_0px_#000]"
+                  className="bg-red-600 text-white px-12 py-6 text-lg font-bold uppercase tracking-widest hover:bg-red-700 transition-all duration-200 border-4 border-red-600 hover:border-red-700 shadow-[6px_6px_0px_0px_#000] hover:shadow-[8px_8px_0px_0px_#000]"
                   style={{ fontFamily: "var(--font-manrope)" }}
                 >
-                  Book Demo Call
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setCalendlyOpen(true)}
-                  className="bg-black text-white px-8 py-5 text-base font-bold uppercase tracking-widest hover:bg-red-600 transition-colors duration-200 border-4 border-black hover:border-red-600"
-                  style={{ fontFamily: "var(--font-manrope)" }}
-                >
-                  Start Free Trial
+                  Start Your Free Trial
                 </button>
               </div>
 
-              {/* Trust indicator */}
-              <div className="flex items-center gap-2 text-sm text-gray-600">
-                <span className="text-green-600 font-bold">✓</span>
-                <span style={{ fontFamily: "var(--font-manrope)" }}>
-                  Setup in under 5 minutes
-                </span>
+              {/* Trust indicators */}
+              <div className="space-y-2">
+                <div className="flex items-center gap-2 text-sm text-gray-600">
+                  <span className="text-green-600 font-bold">✓</span>
+                  <span style={{ fontFamily: "var(--font-manrope)" }}>
+                    Setup in under 5 minutes
+                  </span>
+                </div>
+                <div className="flex items-center gap-2 text-sm text-gray-600">
+                  <span className="text-green-600 font-bold">✓</span>
+                  <span style={{ fontFamily: "var(--font-manrope)" }}>
+                    No credit card required
+                  </span>
+                </div>
               </div>
             </div>
 
